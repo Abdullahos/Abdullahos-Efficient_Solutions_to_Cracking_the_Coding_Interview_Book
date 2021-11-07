@@ -3,7 +3,7 @@ public static Node deleteMiddleNode(Node head){
 	Node p1 = head;
 	Node p2 = head;
 	
-	while(p2 != null && p2.next != null`){
+	while(p2 != null && p2.next != null){
 		p2 = p2.next.next;
 		p1 = p1.next;
 	}
