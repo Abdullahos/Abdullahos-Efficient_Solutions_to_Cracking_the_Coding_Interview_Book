@@ -5,7 +5,7 @@ public class StringCompression {
 		int i = 0;
 		int j = 0;
 		int counter;	//count repetition for each series of a letter
-		StringBuilder sb = new StringBuilder();	//to get ride of the time complexity if we use the String
+		StringBuilder sb = new StringBuilder();	//to get ride of the time and space complexity if we use the String
 		while(i<s.length()) {
 			j++;
 			counter = 1;
